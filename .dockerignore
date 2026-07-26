@@ -1,0 +1,14 @@
+# NOTE: `build/` is intentionally NOT ignored — it is the payload of the image.
+node_modules
+.svelte-kit
+src
+static
+.git
+.gitlab-ci.yml
+Dockerfile
+.dockerignore
+*.log
+.DS_Store
+.env
+.env.*
+.lib
